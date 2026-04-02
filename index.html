@@ -58,7 +58,7 @@
       display:inline-block;
       margin-top:25px;
       padding:14px 34px;
-      font-size:1.2rem;
+      font-size:2.2rem;
       font-weight:800;
       color:#fff;
       background: linear-gradient(90deg, var(--purple-dark), var(--purple-mid));
@@ -229,7 +229,7 @@
       if (!started && window.scrollY > offsetTop) {
         started = true;
         let count = 0;
-        const target = 30000;
+        const target = 100000;
         const duration = 2000;
         const increment = Math.ceil(target / (duration / 20));
         const interval = setInterval(() => {
